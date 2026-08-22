@@ -23,8 +23,12 @@ brew uninstall --cask snap
 brew untap lucasfe/snap
 ```
 
-Uninstalling with the cask also removes Snap's preferences and keychain items,
-so it leaves nothing behind.
+That removes the app. To also remove Snap's preferences and keychain items, pass
+`--zap`:
+
+```bash
+brew uninstall --zap --cask snap
+```
 
 ## What is in this tap
 
@@ -35,12 +39,13 @@ so it leaves nothing behind.
 Snap's application source lives in a private repository. Only the signed,
 notarized binary and this cask are public.
 
+<!-- Maintainer note: delete the "Status" section below when the first cask ships. -->
+
 ## Status
 
 This tap is seeded but does not contain a published cask yet, so
 `brew install --cask snap` will not find anything until the first release is
-cut. `brew tap lucasfe/snap` works today. Remove this section once the first
-cask is published.
+cut. `brew tap lucasfe/snap` works today.
 
 ## License
 
