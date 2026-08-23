@@ -7,8 +7,16 @@ and annotation app.
 
 ```bash
 brew tap lucasfe/snap
-brew install --cask snap
+brew install --cask lucasfe/snap/snap
 ```
+
+Spell the cask out as `lucasfe/snap/snap` on that first install. Homebrew 6
+refuses to load a cask from a tap you have not trusted, so the short
+`brew install --cask snap` fails with *"Refusing to load cask
+lucasfe/snap/snap from untrusted tap lucasfe/snap"*. Naming the tap explicitly
+counts as granting that trust: Homebrew prints `Trusted cask
+lucasfe/snap/snap`, records it in `~/.homebrew/trust.json`, and installs. Every
+later command can use the short name.
 
 ## Upgrade
 
@@ -38,14 +46,6 @@ brew uninstall --zap --cask snap
 
 Snap's application source lives in a private repository. Only the signed,
 notarized binary and this cask are public.
-
-<!-- Maintainer note: delete the "Status" section below when the first cask ships. -->
-
-## Status
-
-This tap is seeded but does not contain a published cask yet, so
-`brew install --cask snap` will not find anything until the first release is
-cut. `brew tap lucasfe/snap` works today.
 
 ## License
 
