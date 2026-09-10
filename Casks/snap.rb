@@ -1,8 +1,8 @@
 cask "snap" do
-  version "0.2.0"
-  sha256 "fb908cc790790f3f2bb630c8c0411356f3cfce391390c5ed272ec941b51676a0"
+  version "0.3.0"
+  sha256 "8fc42050ed3630e4c6c0a955d65368822499b89e6d4f6ec423e5794f47ffb81b"
 
-  url "https://github.com/lucasfe/homebrew-snap/releases/download/v0.2.0/Snap-0.2.0.dmg"
+  url "https://github.com/lucasfe/homebrew-snap/releases/download/v0.3.0/Snap-0.3.0.dmg"
   name "Snap"
   desc "Menu bar screenshot tool with annotation and issue filing"
   homepage "https://github.com/lucasfe/homebrew-snap"
