@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Snap</title>
+    <item>
+      <title>Snap 0.4.1</title>
+      <pubDate>Fri, 25 Sep 2026 04:14:24 +0000</pubDate>
+      <sparkle:version>258</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <description><![CDATA[Snap v0.4.1 — changes since v0.4.0.
+
+## Added
+
+- feat: release.sh EdDSA-signs the build and publishes the Sparkle appcast
+- feat: clipboard search matcher + toolbar field (\#196) (\#220)
+- feat: add custom app icon and menu bar icon from stack assets
+
+## Fixed
+
+- fix: Show Desktop Icons force-terminates Finder so it auto-relaunches
+- fix: Preview sizes an image to its own size, fit to the screen
+- fix: Restyle the clipboard tag row, search, and cards to the reference (\#252)
+- fix: Card text hierarchy — larger title3 over subheadline, bigger preview (\#240)
+- fix: Rename the clipboard "All" chip to "Clipboard" (\#243) (\#249)
+- fix: Collapse tag chips to color-only when the clipboard search expands (\#242) (\#248)
+- fix: Center the search + debug icons in the clipboard bar (\#241) (\#247)
+- fix: Window-capture editor dims the area outside the captured window (\#239) (\#246)
+- fix: Desktop icons Show restores by deleting the CreateDesktop key (\#238) (\#245)
+- fix: Drag-into-report attaches the dragged card, not the selection (\#236) (\#244)
+- fix: Clipboard search empty-results state echoing the query (\#198) (\#235)
+- fix: Source app on the card, and the denylist (\#169) (\#234)
+- fix: Scroll-tracked neighbor thumbnail prefetch around the cursor (\#217) (\#233)
+- fix: Preview popover decodes its image once via a testable holder (\#216) (\#232)
+- fix: Warm first-screenful thumbnails in the background (\#215) (\#231)
+- fix: Off-main async card render with loading/broken placeholder (\#214) (\#230)
+- fix: Thumbnail cache + cards render cached downsampled thumbnails (\#213) (\#229)
+- fix: Downsampling thumbnail decoder + size math (pure foundation) (\#212) (\#228)
+- fix: Capture Window — pick overlay + camera cursor + menu row + editor integration (\#209) (\#227)
+- fix: Window capture core — enumeration seam + pick resolver + captureWindow (\#208) (\#226)
+- fix: Hide / Show Desktop Icons menu toggle (\#207) (\#225)
+- fix: Capture Fullscreen menu row — copy display under cursor to clipboard + history (\#206) (\#224)
+- fix: idle status menu as a testable value + icons + rename + reorder (\#205) (\#223)
+- fix: Sparkle + UpdateController seam + Check for Updates menu item (\#200) (\#222)
+- fix: clipboard search reveal-on-click + ⌘F/Esc keyboard (\#197) (\#221)
+- fix: center clipboard toolbar with trailing action zone (\#195) (\#219)
+- fix: enlarge clipboard thumbnails and card spacing (\#194) (\#218)
+- fix: enlarge clipboard cards to match the reference layout (\#191) (\#210)
+- fix: clipboard preview shows, points at the outlined card, and fits its content
+- fix: drag a selection into an open report (\#177) (\#190)
+- fix: action row with divider and bug icon that files a prefilled report (\#176) (\#189)
+- fix: Enter and Backspace over a selection (\#175) (\#188)
+- fix: multi-selection in the clipboard bar (\#174) (\#187)
+- fix: edit a text clip from the preview header (\#173) (\#186)
+- fix: preview a clip in a popover that follows the cursor (\#172) (\#185)
+- fix: read a copied URL as a link card showing its host (\#171) (\#184)
+- fix: remember copied text as text cards (\#170) (\#183)
+- fix: remember what you copy in other apps, images only (\#168) (\#182)
+- fix: teach a history entry what kind of thing it holds (\#167) (\#181)
+- fix: let a project row's tap and the list's drag coexist (\#166) (\#180)
+- fix: document the bar's chrome and the tag row within the existing budgets (\#154) (\#163)
+- fix: drag a card onto a tag pill to assign it (\#153) (\#162)
+- fix: right-click a card to tag it, with a Tags checklist and New Tag (\#152) (\#161)
+- fix: filter the strip by tag, with the one cursor kept single (\#151) (\#160)
+- fix: name a tag in place, cycle its colour, delete it (\#150) (\#159)
+- fix: a tag exists, persists across relaunch, and draws as a pill (\#149) (\#158)
+- fix: a card wears an accent band and a size pill (\#148) (\#156)
+- fix: the clipboard bar becomes a floating translucent slab (\#147) (\#155)
+
+## Other
+
+- Generate EdDSA keypair; bake public key into app; back up the private key (\#201) (\#250)
+- chore: add full brand kit and update agent steering doc
+- docs: add agent steering doc for icon assets
+- chore: add original stack icon assets to resources/icons/stack
+- Refactor/split test monolith (\#192)
+- chore: reference screenshots for \#191 (reference target)
+- chore: reference screenshots for \#191 (snap current)
+- docs: compress README's Features into links and route the detail to usage.md (\#165) (\#179)
+- docs: freeze the clipboard-manager PRD into docs/prds (\#164) (\#178)
+- Add bug report screenshot for \#157]]></description>
+      <enclosure url="https://github.com/lucasfe/homebrew-snap/releases/download/v0.4.1/Snap-0.4.1.dmg" sparkle:edSignature="fvTTPVRY//IO85YPwMmMKlB1opfay0DlOGZ7m8peTibq94ntLFAGMRD70k8Cx5g0Nlsg3SWeHwutcOVy+QBbBQ==" length="3109622" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
