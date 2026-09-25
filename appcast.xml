@@ -3,6 +3,19 @@
   <channel>
     <title>Snap</title>
     <item>
+      <title>Snap 0.4.2</title>
+      <pubDate>Fri, 25 Sep 2026 04:24:02 +0000</pubDate>
+      <sparkle:version>259</sparkle:version>
+      <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+      <description><![CDATA[Snap v0.4.2 — changes since v0.4.1.
+
+## Other
+
+- chore: bump build to cut 0.4.2 (Sparkle auto-update smoke test)]]></description>
+      <enclosure url="https://github.com/lucasfe/homebrew-snap/releases/download/v0.4.2/Snap-0.4.2.dmg" sparkle:edSignature="G+etUb/+Qbh4rdYOUbVUzCetY6idBCbbm8pVGcNElgJOZtSmK6MZx7FFrlxcdVu2/zCe6TQRrJdNAS9BJk0QAQ==" length="3109633" type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>Snap 0.4.1</title>
       <pubDate>Fri, 25 Sep 2026 04:14:24 +0000</pubDate>
       <sparkle:version>258</sparkle:version>
