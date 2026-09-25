@@ -9,6 +9,8 @@ cask "snap" do
 
   app "Snap.app"
 
+  auto_updates true
+
   zap trash: [
         "~/Library/Application Support/com.lucasfe.Snap",
         "~/Library/Caches/com.lucasfe.Snap",
